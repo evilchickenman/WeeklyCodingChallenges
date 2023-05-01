@@ -10,7 +10,7 @@ class warOfNumbersChallenge {
     public static int warOfNumbers(int[] numbers) {
         int evenSum = 0;//This is where we will store an array of even numbers
         int oddSum = 0;//This is where we will store an array of odd numbers
-
+//start of loop to sort odd and even numbers
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 == 0) {
                 evenSum += numbers[i];//add even number to evenSum array
